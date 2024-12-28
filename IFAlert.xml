@@ -1,0 +1,20 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"  
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.blizzard.com/wow/ui/ C:\Projects\WoW\Bin\Interface\FrameXML\UI.xsd">
+	<!-- $Id$ -->
+
+	<!-- My Script -->
+	<Script file="IFAlert.lua"/>
+
+	<!-- My AddOn Frames -->
+	<Frame name="IFAlertFrame" parent="UIParent">
+		<Scripts>
+			<OnLoad>
+				IFAlert_OnLoad();
+			</OnLoad>
+			<OnEvent>
+				IFAlert_OnEvent(event);
+			</OnEvent>
+		</Scripts>
+	</Frame>
+</Ui>

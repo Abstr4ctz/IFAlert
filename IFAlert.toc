@@ -1,0 +1,7 @@
+## Interface: 11200
+## Title: IFAlert
+## Author: Modified by Abstractz. Made by Ollowain, adapted from ShaguCombat.
+## Notes: Notifies you when Inner Fire is not up
+## Version: 0.0.1
+IFAlert.lua
+IFAlert.xml
